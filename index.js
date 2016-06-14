@@ -28,7 +28,7 @@ function adapter() {
 }
 
 function framework() {
-  return require.resolve('reflectionjs');
+  return require.resolve('esreflect');
 }
 
 function getTrackerVar() {
