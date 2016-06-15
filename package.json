@@ -15,5 +15,10 @@
     "path": "^0.12.7",
     "esreflect": "^0.1.0",
     "temp-write": "^2.1.0"
+  },
+  "scripts": {
+    "bump": "npm version patch && npm publish && git push --tags origin master",
+    "bump:minor": "npm version minor && npm publish && git push --tags origin master",
+    "bump:major": "npm version major && npm publish && git push --tags origin master"
   }
 }
