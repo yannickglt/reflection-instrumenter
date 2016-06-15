@@ -28,7 +28,8 @@ function adapter() {
 }
 
 function framework() {
-  return require.resolve('esreflect');
+  // Load the browserify version of the esreflect library
+  return require.resolve('esreflect/dist/esreflect');
 }
 
 function getTrackerVar() {
